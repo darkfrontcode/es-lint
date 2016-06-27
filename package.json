@@ -7,7 +7,7 @@
     "devDependencies": {},
     "scripts": {
         "start":"npm run eslint -- ./public/app.js",
-        "eslint":"eslint --config ./server/eslint/config.json test.js"
+        "eslint":"eslint --config ./server/eslint/config.json"
     },
     "author": "",
     "license": "ISC"
