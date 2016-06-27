@@ -1,0 +1,14 @@
+{
+    "name": "es-lint",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "start":"npm run eslint -- ./public/app.js",
+        "eslint":"eslint --config ./server/eslint/config.json test.js"
+    },
+    "author": "",
+    "license": "ISC"
+}

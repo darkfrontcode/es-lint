@@ -1,0 +1,12 @@
+{
+    "extends": "eslint:recommended",
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+        "no-alert": "off",
+        "no-console": "off"
+    }
+}
